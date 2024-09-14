@@ -1,8 +1,8 @@
 /** @type {typeof import('telegraf').Telegraf} */
 const Telegraf = require('telegraf');
 const axios = require('axios')
-// 7414300092:AAFl3VHliu9eSnxO0ahYZQAS0vQkvSq8QU0                                                                                        
-const bot = new Telegraf(process.Abi.token)
+// isi ini 7414300092:AAFl3VHliu9eSnxO0ahYZQAS0vQkvSq8QU0                                                                                        
+const bot = 7414300092:AAFl3VHliu9eSnxO0ahYZQAS0vQkvSq8QU0 (process.Abi.token)
 
 let lolkey = process.Abi.lolkey,
 let zeks = 'apiABI',
