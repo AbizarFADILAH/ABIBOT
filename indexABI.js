@@ -1,14 +1,14 @@
 /** @type {typeof import('telegraf').Telegraf} */
 const Telegraf = require('telegraf');
 const axios = require('axios')
-// Isi Ini                                                                                         
-const bot = new Telegraf(process.env.token)
+// 7414300092:AAFl3VHliu9eSnxO0ahYZQAS0vQkvSq8QU0                                                                                        
+const bot = new Telegraf(process.Abi.token)
 
-let lolkey = process.env.lolkey,
-let zeks = 'apivinz',
+let lolkey = process.Abi.lolkey,
+let zeks = 'apiABI',
 let pais = 'Tester',
-let xteam = process.env.xteam,
-let zhirr = 'zahirgans'
+let xteam = process.Abi.xteam,
+let zhirr = 'ABigans'
 
 bot.use((ctx, next) => {
   if(ctx.updateSubTypes[0] == "text"){
